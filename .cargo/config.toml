@@ -1,0 +1,6 @@
+[build]
+rustflags = ["-Dwarnings"]
+target-dir = "target"
+
+[term]
+color = "always"

@@ -1,3 +1,9 @@
+[package]
+name = "atlas-cli"
+version = "0.1.0"
+edition = "2021"
+
 [dependencies]
 clap = { version = "4", features = ["derive"] }
 atlas-protocol = { path = "../../crates/atlas-protocol" }
+atlas-core = { path = "../../crates/atlas-core" }

@@ -1,5 +1,11 @@
+[package]
+name = "atlas-core"
+version = "0.1.0"
+edition = "2021"
+
 [dependencies]
 tokio.workspace = true
 anyhow.workspace = true
 atlas-common = { path = "../atlas-common" }
 atlas-protocol = { path = "../atlas-protocol" }
+atlas-infra = { path = "../atlas-infra" }

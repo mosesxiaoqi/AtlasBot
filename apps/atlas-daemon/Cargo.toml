@@ -1,4 +1,10 @@
+[package]
+name = "atlas-daemon"
+version = "0.1.0"
+edition = "2021"
+
 [dependencies]
 tokio.workspace = true
 atlas-core = { path = "../../crates/atlas-core" }
 atlas-infra = { path = "../../crates/atlas-infra" }
+atlas-sandbox = { path = "../../crates/atlas-sandbox" }

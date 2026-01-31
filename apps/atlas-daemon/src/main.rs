@@ -1,4 +1,4 @@
 #[tokio::main]
 async fn main() {
-    println!("claw-daemon starting...");
+    println!("atlas-daemon starting...");
 }
