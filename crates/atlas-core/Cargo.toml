@@ -1,0 +1,5 @@
+[dependencies]
+tokio.workspace = true
+anyhow.workspace = true
+atlas-common = { path = "../atlas-common" }
+atlas-protocol = { path = "../atlas-protocol" }

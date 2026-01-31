@@ -1,0 +1,3 @@
+[dependencies]
+anyhow.workspace = true
+atlas-common = { path = "../atlas-common" }

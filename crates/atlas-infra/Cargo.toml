@@ -1,0 +1,14 @@
+[package]
+name = "atlas-infra"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+# 可选：自定义 lib 文件路径或其它配置
+# path = "src/lib.rs"
+
+
+[dependencies]
+tokio.workspace = true
+tracing.workspace = true
+atlas-common = { path = "../atlas-common" }

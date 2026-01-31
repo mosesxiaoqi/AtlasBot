@@ -1,1 +1,1 @@
-# atlasBot
+# atlas_bot

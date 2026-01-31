@@ -1,0 +1,8 @@
+[package]
+name = "atlas-protocol"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde.workspace = true
+atlas-common = { path = "../atlas-common" }
