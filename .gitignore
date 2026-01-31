@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+dist/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+/target
+**/*.rs.bk
+Cargo.lock
