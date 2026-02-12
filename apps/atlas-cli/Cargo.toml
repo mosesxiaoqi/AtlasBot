@@ -4,6 +4,15 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow.workspace = true
+async-trait = "0.1"
 clap = { version = "4", features = ["derive"] }
 atlas-protocol = { path = "../../crates/atlas-protocol" }
 atlas-core = { path = "../../crates/atlas-core" }
+reqwest = { version = "0.11", features = ["json", "stream"] }
+tokio = { version = "1", features = ["full"] }
+serde_json = "1.0"
+futures = "0.3"
+dotenv = "0.15" # 用于加载 .env 中的 API KEY
+tracing = "0.1"
+tracing-subscriber = "0.3"

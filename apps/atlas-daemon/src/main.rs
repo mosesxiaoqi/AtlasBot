@@ -1,4 +1,3 @@
-#[tokio::main]
-async fn main() {
-    println!("atlas-daemon starting...");
+fn main() {
+    println!("Hello, world!");
 }
